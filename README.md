@@ -4,7 +4,16 @@ Simplify the data entry process for CalTrans workers.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+### Project Vision:
+The class of CSC 131-01 would like to simplify the documentation process for CalTrans site inspections.
+To effectively accomplish this goal, we must make the existing Caltrans Construction Project Stormwater Review Report more interactive, so as to expedite inspection reports for Caltrans personnel.
+
+
+### Project Objectives:
+Reduce the time investment required to accomplish each task in the report.
+Protect the user from themselves- make forgiving software that anticipates human mistakes.
+The program shall seek to simplify the input of redundant information.
+
 
 ## Getting Started
 
