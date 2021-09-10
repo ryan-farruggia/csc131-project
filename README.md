@@ -19,7 +19,7 @@ The program shall seek to simplify the input of redundant information.
 
 * Click the "Fork" button at the top right of the website to become a contributor to this project.
 * If you're unfamiliar with Git or how GitHub works, it may be helpful to read the documentation: https://docs.github.com/en/get-started
-* Some YouTube videos that may also be helpful:
+### Some YouTube videos that may also be helpful:
 * From 2019:
 * https://www.youtube.com/watch?v=nhNq2kIvi9s
 * From 2014:
