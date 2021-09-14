@@ -1,7 +1,5 @@
 # CSC 131 Project - Fall 2021
 
-Simplify the data entry process for CalTrans workers.
-
 ## Description
 
 ### Project Vision:
@@ -35,7 +33,7 @@ The program shall seek to simplify the input of redundant information.
 
 * To be added at a future date
 
-### Executing program
+### Execute
 
 * To be added at a future date
 ```
@@ -46,7 +44,7 @@ example code beep boop
 
 Check the Discord or DM a group member if you need immediate help.
 ```
-check code comments for clarification if nobody's available to talk
+// check code comments for clarification if nobody's available to talk
 ```
 
 ## Authors
@@ -54,10 +52,10 @@ check code comments for clarification if nobody's available to talk
 Contributor names and *contact info**:
 
 * Ryan Farruggia (rjfarruggia@csus.edu)
-* Mahroona Yasar
-* Tran Chi
-* Bikram Singh
-* Catalina Wanchai
+* Mahroona Yasar (mahroonayasar@csus.edu)
+* Tran Chi (tranchi@csus.edu)
+* Bikram Singh (bikramsingh@csus.edu)
+* Catalina Wanchai (catalinawanchai@csus.edu)
 * Raphael Guerrero
 * David Quintanilla
 
