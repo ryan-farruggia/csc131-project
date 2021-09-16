@@ -1,18 +1,5 @@
 # CSC 131 Project - Fall 2021
 
-## Description
-
-### Project Vision:
-The class of CSC 131-01 would like to simplify the documentation process for CalTrans site inspections.
-To effectively accomplish this goal, we must make the existing Caltrans Construction Project Stormwater Review Report more interactive, so as to expedite inspection reports for Caltrans personnel.
-
-
-### Project Objectives:
-Reduce the time investment required to accomplish each task in the report.
-Protect the user from themselves- make forgiving software that anticipates human mistakes.
-The program shall seek to simplify the input of redundant information.
-
-
 ## Getting Started
 
 * Click the "Fork" button at the top right of the website to become a contributor to this project.
@@ -71,3 +58,15 @@ Contributor names and *contact info**:
 ## Acknowledgments
 
 * To be added at a future date
+
+## Description
+
+### Project Vision:
+The class of CSC 131-01 would like to simplify the documentation process for CalTrans site inspections.
+To effectively accomplish this goal, we must make the existing Caltrans Construction Project Stormwater Review Report more interactive, so as to expedite inspection reports for Caltrans personnel.
+
+
+### Project Objectives:
+Reduce the time investment required to accomplish each task in the report.
+Protect the user from themselves- make forgiving software that anticipates human mistakes.
+The program shall seek to simplify the input of redundant information.
