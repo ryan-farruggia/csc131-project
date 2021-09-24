@@ -65,8 +65,7 @@ If everything is successful, congratulations! You're nearly there. If not, feel 
 * Finally, if you're completely happy with your changes, you can `push` them to your branch which submits it to me for review. Click the box at the top right that says `Push to Branch`. It may also say `Push to origin`. And that's it! That's the whole development process.
     
 Well done!
-## README Author
-* Ryan Farruggia (rjfarruggia@csus.edu)
+
 ## Project Authors
 * Ryan Farruggia (rjfarruggia@csus.edu)
 * Mahroona Yasar (mahroonayasar@csus.edu)
@@ -75,6 +74,9 @@ Well done!
 * Catalina Wanchai (catalinawanchai@csus.edu)
 * Raphael Guerrero
 * David Quintanilla
+
+## README Author
+* Ryan Farruggia (rjfarruggia@csus.edu)
 
 ## Version History
 
