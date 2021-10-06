@@ -73,7 +73,7 @@ Well done!
 * Bikram Singh (bikramsingh@csus.edu)
 * Catalina Wanchai (catalinawanchai@csus.edu)
 * Raphael Guerrero
-* David Quintanilla
+* David Quintanilla(davidquintanill@csus.edu)
 
 ## README Author
 * Ryan Farruggia (rjfarruggia@csus.edu)
