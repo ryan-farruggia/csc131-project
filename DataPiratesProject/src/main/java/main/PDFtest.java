@@ -12,6 +12,7 @@ public class PDFtest {
             PDDocument pDDocument = PDDocument.load(new File("pdf-java.pdf"));
             PDAcroForm pDAcroForm = pDDocument.getDocumentCatalog().getAcroForm();
             PDField field = pDAcroForm.getField("txt_1");
+            field.setValue("Hello World");
             field.setValue("This is field #1");
             field = pDAcroForm.getField("txt_2");
             field.setValue("This is field #2");
