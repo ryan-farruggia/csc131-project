@@ -12,9 +12,9 @@ public class PDFtest {
             PDDocument pDDocument = PDDocument.load(new File("pdf-java.pdf"));
             PDAcroForm pDAcroForm = pDDocument.getDocumentCatalog().getAcroForm();
             PDField field = pDAcroForm.getField("txt_1");
-            field.setValue("Raphael Guerrero");
+            field.setValue("Mahroona Yasar");
             field = pDAcroForm.getField("txt_2");
-            field.setValue("October 14, 2021");
+            field.setValue("10-15-2021");
             pDDocument.save("pdf-java.pdf");
             pDDocument.close();
         } catch (IOException e) {
