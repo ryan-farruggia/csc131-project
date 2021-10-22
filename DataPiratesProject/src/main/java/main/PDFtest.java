@@ -11,9 +11,10 @@ public class PDFtest {
         try {
             PDDocument pDDocument = PDDocument.load(new File("pdf-java.pdf"));
             PDAcroForm pDAcroForm = pDDocument.getDocumentCatalog().getAcroForm();
-            PDField field = pDAcroForm.getField("txt_1");
-            
-            // Do not remove the following 2 lines
+            PDField testfield = pDAcroForm.getField("projectdescriptiontextbox");
+            testfield.setValue("This project does stuff and I think that's really cool.");
+            testfield = pDAcroForm.getField("contractnumbertextbox");
+            testfield.setValue("Contract #420");
             pDDocument.save("pdf-java.pdf");
             pDDocument.close();
         } catch (IOException e) {
