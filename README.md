@@ -82,8 +82,8 @@ Well done!
 * Tran Chi (tranchi@csus.edu)
 * Bikram Singh (bikramsingh@csus.edu)
 * Catalina Wanchai (catalinawanchai@csus.edu)
-* Raphael Guerrero
-* David Quintanilla(davidquintanill@csus.edu)
+* Raphael Guerrero (rguerrero@csus.edu)
+* David Quintanilla (davidquintanill@csus.edu)
 
 ## README Author
 
