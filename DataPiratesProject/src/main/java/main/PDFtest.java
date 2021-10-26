@@ -4,8 +4,10 @@ import java.io.IOException;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm;
 import org.apache.pdfbox.pdmodel.interactive.form.PDField;
+import java.awt.*;
+import java.awt.event.*;
 
-public class PDFtest {
+public class PDFtest extends Frame implements ActionListener {
 	// Method to make printing EZ
 	public static <E> void p(E item) {
 		System.out.println(item);
@@ -18,6 +20,8 @@ public class PDFtest {
         	 * PDAcroForm: gets a document and converts it to an interactive form
         	 * PDField: gets a field by its name
         	 */
+        	TextField tf;
+        	tf = new TextField();
             // PDDocument pDDocument = PDDocument.load(new File("pdf-java.pdf"));
         	PDDocument pDDocument = PDDocument.load(new File("test-pdf.pdf"));
             PDAcroForm pDAcroForm = pDDocument.getDocumentCatalog().getAcroForm();
@@ -101,4 +105,7 @@ public class PDFtest {
             e.printStackTrace();
         }
     }
+	public void actionPerformed(ActionEvent e) {
+				
+	}
 }
