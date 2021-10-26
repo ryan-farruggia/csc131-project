@@ -1,13 +1,14 @@
 package main;
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
+
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm;
 import org.apache.pdfbox.pdmodel.interactive.form.PDField;
-import java.awt.*;
-import java.awt.event.*;
+import org.apache.pdfbox.pdmodel.interactive.form.PDTextField;
 
-public class PDFtest extends Frame implements ActionListener {
+public class PDFtest {
 	// Method to make printing EZ
 	public static <E> void p(E item) {
 		System.out.println(item);
@@ -20,12 +21,10 @@ public class PDFtest extends Frame implements ActionListener {
         	 * PDAcroForm: gets a document and converts it to an interactive form
         	 * PDField: gets a field by its name
         	 */
-        	TextField tf;
-        	tf = new TextField();
             // PDDocument pDDocument = PDDocument.load(new File("pdf-java.pdf"));
         	PDDocument pDDocument = PDDocument.load(new File("test-pdf.pdf"));
             PDAcroForm pDAcroForm = pDDocument.getDocumentCatalog().getAcroForm();
-            
+            List<PDField> fields = pDAcroForm.getFields();
             // Reset total values so they don't += themselves
             PDField bmp7 = pDAcroForm.getField("bmptotalTB");
             bmp7.setValue(Integer.toString(0));
@@ -96,6 +95,24 @@ public class PDFtest extends Frame implements ActionListener {
             String bmptemp = Integer.toString(bmpTotal);
             bmp7.setValue(bmptemp);
             
+            // set contract numbers, NEEDS FUTURE PROOFING
+			PDField OGcontract = pDAcroForm.getField("contractnumbertextbox");
+			String OGcontractstring = OGcontract.getValueAsString();
+			p(OGcontractstring);
+			PDField contractnum1 = pDAcroForm.getField("contractnumberTB1");
+			PDField contractnum2 = pDAcroForm.getField("contractnumberTB2");
+			PDField contractnum3 = pDAcroForm.getField("contractnumberTB3");
+			PDField contractnum4 = pDAcroForm.getField("contractnumberTB4");
+			contractnum1.setValue(OGcontractstring);
+			contractnum2.setValue(OGcontractstring);
+			contractnum3.setValue(OGcontractstring);
+			contractnum4.setValue(OGcontractstring);
+			
+			pDDocument.save("test-pdf.pdf");
+            //contractNumber cn = new contractNumber();
+            //cn.setContractValues();
+            
+            
             p("Completed all operations with no errors. Exit code (0).");
             // Do not remove these two lines!
             //pDDocument.save("pdf-java.pdf");
@@ -105,7 +122,4 @@ public class PDFtest extends Frame implements ActionListener {
             e.printStackTrace();
         }
     }
-	public void actionPerformed(ActionEvent e) {
-				
-	}
 }
