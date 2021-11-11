@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.util.List;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.pdmodel.encryption.AccessPermission;
+import org.apache.pdfbox.pdmodel.encryption.StandardProtectionPolicy;
 import org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm;
 import org.apache.pdfbox.pdmodel.interactive.form.PDField;
 import org.apache.pdfbox.pdmodel.interactive.form.PDTextField;
@@ -94,6 +96,15 @@ public class PDFtest {
             bmpTotal = bmp1val + bmp2val + bmp3val + bmp4val + bmp5val + bmp6val + bmp7val;
             String bmptemp = Integer.toString(bmpTotal);
             bmp7.setValue(bmptemp);
+            
+            /* EXPERIMENTAL 256-bit SECURITY */
+            int keyLength = 256;
+            AccessPermission ap = new AccessPermission();
+            ap.setCanPrint(true);
+            StandardProtectionPolicy spp = new StandardProtectionPolicy("owner-password", "", ap);
+            spp.setEncryptionKeyLength(keyLength);
+            spp.setPermissions(ap);
+            pDDocument.protect(spp);
             
             // set contract numbers, NEEDS FUTURE PROOFING
 			PDField OGcontract = pDAcroForm.getField("contractnumbertextbox");
