@@ -85,8 +85,8 @@ Well done!
 * Mahroona Yasar (mahroonayasar@csus.edu)
 * Catalina Wanchai (catalinawanchai@csus.edu)
 * Raphael Guerrero (rguerrero@csus.edu)
-~~* David Quintanilla (davidquintanill@csus.edu)~~
-~~* Tran Chi (tranchi@csus.edu)~~
+* ~~David Quintanilla (davidquintanill@csus.edu)~~
+* ~~Tran Chi (tranchi@csus.edu)~~
 
 ## README Author
 
