@@ -75,15 +75,18 @@ If everything is successful, congratulations! You're nearly there. If not, feel 
 
 Well done!
 
-## Project Authors
+## Main Project Authors
 
 * Ryan Farruggia (rjfarruggia@csus.edu)
-* Mahroona Yasar (mahroonayasar@csus.edu)
-* Tran Chi (tranchi@csus.edu)
 * Bikram Singh (bikramsingh@csus.edu)
+
+## Other Authors
+
+* Mahroona Yasar (mahroonayasar@csus.edu)
 * Catalina Wanchai (catalinawanchai@csus.edu)
 * Raphael Guerrero (rguerrero@csus.edu)
-* David Quintanilla (davidquintanill@csus.edu)
+~~* David Quintanilla (davidquintanill@csus.edu)~~
+~~* Tran Chi (tranchi@csus.edu)~~
 
 ## README Author
 
@@ -100,4 +103,4 @@ Well done!
 
 ## Acknowledgments
 
-* To be added at a future date
+* If this project is used on a resume, please see the commit history before jumping to any conclusions about the work ethic of said person.
